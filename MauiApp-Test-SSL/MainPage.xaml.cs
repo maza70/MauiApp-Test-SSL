@@ -1,4 +1,6 @@
-﻿using System.Net;
+﻿using Android.Nfc;
+using Android.Util;
+using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Runtime;
@@ -17,6 +19,7 @@ public partial class MainPage : ContentPage
 
     private async void OnCounterClicked(object sender, EventArgs e)
     {
+        Log.Info(tag, "No exception");
         //PROPFIND works only on android when in project <UseNativeHttpHandler>false</UseNativeHttpHandler>
         try
         {

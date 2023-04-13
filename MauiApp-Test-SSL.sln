@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiApp-Test-SSL", "MauiApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "android-ssl-test", "android-ssl-test\android-ssl-test.csproj", "{9BF19B2B-01F2-4D94-AF18-BF43F1BBB615}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiNet8Preview3-ssl-test", "MauiNet8Preview3-ssl-test\MauiNet8Preview3-ssl-test.csproj", "{5521E228-B826-4466-8F7C-F53D836C9FA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{9BF19B2B-01F2-4D94-AF18-BF43F1BBB615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF19B2B-01F2-4D94-AF18-BF43F1BBB615}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9BF19B2B-01F2-4D94-AF18-BF43F1BBB615}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5521E228-B826-4466-8F7C-F53D836C9FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5521E228-B826-4466-8F7C-F53D836C9FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5521E228-B826-4466-8F7C-F53D836C9FA7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5521E228-B826-4466-8F7C-F53D836C9FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5521E228-B826-4466-8F7C-F53D836C9FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5521E228-B826-4466-8F7C-F53D836C9FA7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
